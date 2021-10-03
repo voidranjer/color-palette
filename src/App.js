@@ -1,7 +1,7 @@
-// How to set up React with Firebase/Firestore (Part 1)
-// https://youtu.be/ig91zc-ERSE
+// How to set up React with Firebase/Firestore (Part 2)
+// https://youtu.be/YpuyxBfYRT8
 
-import { onSnapshot, collection } from "firebase/firestore";
+import { onSnapshot, collection, addDoc } from "firebase/firestore";
 import { useEffect, useState } from "react";
 import db from "./firebase";
 
@@ -28,9 +28,19 @@ export default function App() {
     []
   );
 
+  const handleNew = async () => {
+    const name = prompt("Enter color name");
+    const value = prompt("Enter color value");
+
+    const collectionRef = collection(db, "colors");
+    const payload = { name, value };
+    const docRef = await addDoc(collectionRef, payload);
+    console.log("The new ID is: " + docRef.id);
+  };
+
   return (
     <div className="root">
-      <button className="button">
+      <button className="button" onClick={handleNew}>
         New
       </button>
 
