@@ -18,4 +18,4 @@ Part 3: Update existing documents with setDoc [video link](https://youtu.be/E2NS
 Part 4: Performing queries and deleting documents [video link](https://youtu.be/uVPtYLGPL80)
 
 Firestore Quickstart Documentation:
-https://firebase.google.com/docs/firestore/quickstart
+https://firebase.google.com/docs/firestore/quickstart 
