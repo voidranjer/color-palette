@@ -9,13 +9,15 @@ Switch the Git Branch to see the code for a specific video.
 
 How to set up React with Firebase/Firestore v9 [playlist link](https://youtube.com/playlist?list=PLqFvlDFoiZ-2SAX7YXCYtb28K4IooCIlS)
 
-Part 1: Fetch realtime data from Firestore with onSnapshot [video link](https://youtu.be/ig91zc-ERSE)
+**Part 1:** Fetch realtime data from Firestore with onSnapshot [video link](https://youtu.be/ig91zc-ERSE)
 
-Part 2: Create new documents in addDoc/setDoc [video link](https://youtu.be/YpuyxBfYRT8)
+**Part 2:** Create new documents in addDoc/setDoc [video link](https://youtu.be/YpuyxBfYRT8)
 
-Part 3: Update existing documents with setDoc [video link](https://youtu.be/E2NSV1bEbp4)
+**Part 3:** Update existing documents with setDoc [video link](https://youtu.be/E2NSV1bEbp4)
 
-Part 4: Performing queries and deleting documents [video link](https://youtu.be/uVPtYLGPL80)
+**Part 4:** Performing queries and deleting documents [video link](https://youtu.be/uVPtYLGPL80)
+
+**Part 5:** Order document query by timestamp [video link](https://youtu.be/Fa_e2-H_40k)
 
 Firestore Quickstart Documentation:
 https://firebase.google.com/docs/firestore/quickstart
