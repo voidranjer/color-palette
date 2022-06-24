@@ -2,8 +2,6 @@ import { initializeApp } from "firebase/app";
 import { getFirestore } from "firebase/firestore";
 import { initializeAppCheck, ReCaptchaV3Provider } from "firebase/app-check";
 
-console.log(process.env.REACT_APP_FIREBASE_API_KEY);
-
 // Your web app's Firebase configuration
 const firebaseConfig = {
   apiKey: process.env.REACT_APP_FIREBASE_API_KEY,
@@ -17,7 +15,7 @@ const firebaseConfig = {
 // Initialize Firebase
 const app = initializeApp(firebaseConfig);
 const appCheck = initializeAppCheck(app, {
-  provider: new ReCaptchaV3Provider(process.env.RECAPTCHA),
+  provider: new ReCaptchaV3Provider(process.env.REACT_APP_FIREBASE_RECAPTCHA),
   isTokenAutoRefreshEnabled: true,
 });
 
